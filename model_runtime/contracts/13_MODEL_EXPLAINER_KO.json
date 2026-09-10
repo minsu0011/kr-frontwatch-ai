@@ -1,0 +1,63 @@
+{
+  "product_name": "KR FrontWatch AI · 프론트워치 AI",
+  "headline": "한국시장 상대 이상도와 미국 연구 사례를 함께 보는 검토 지원 서비스",
+  "mandatory_disclaimer": "시장감시 목적의 검토 우선순위이며 법적 위법 여부를 의미하지 않습니다.",
+  "risk_index": "고정된 휴리스틱으로 계산한 검토 우선순위입니다. 위법 확률이나 투자 신호가 아닙니다.",
+  "kr_market_anomaly": "2019년까지의 한국 비라벨 자료로 학습한 모델의 이상도를 별도 2020년 한국 분포에 비춘 백분위입니다. 당일 전체시장 백분위와 다릅니다.",
+  "market_relative_anomaly": "같은 날 같은 거래소의 각 특징 백분위를 양측 극단성으로 바꾼 중앙값입니다. 단일 모델 점수의 백분위가 아닙니다.",
+  "self_history_anomaly": "특징별 이전 최대 252거래일 백분위의 양측 극단성 중앙값입니다. 94점이라고 해서 모델 점수 상위 6%라는 뜻은 아닙니다.",
+  "peer_relative_anomaly": "같은 거래소·시가총액·유동성·가격 버킷의 특징 극단성 중앙값입니다. 동종군 20개 미만이면 거래소 기준을 씁니다.",
+  "activation_index": "당일까지 관측한 수익률·거래량·변동성·가격 위치의 당일 상대지표입니다. 미래 사건 예측 확률이 아닙니다.",
+  "donor_support": "원본 미국 연구의 특징별 움직임 강도 관련 방향을 한국 상대척도에 연결합니다. 전이 Tier·자료 가용성·한국 이력·동종군·도메인 상태로 감쇠하며 최종 가중치는 최대 20%입니다. 위법 확률 또는 한국 탐지 성능이 아닙니다.",
+  "confidence_index": "자료의 완전성과 사용 조건을 요약한 별도 지수입니다. 위험 점수나 통계적 신뢰구간이 아닙니다.",
+  "public_context": "시점이 맞는 공개정보가 없으므로 중립 50을 적용합니다. 증거 부재를 의심의 증거로 해석하지 않습니다.",
+  "timing": "일봉만 사용하므로 사건 전후의 정확한 시각을 판정하지 않습니다. ALERT는 생성하지 않습니다.",
+  "historical": "최신 캐시 기준일은 2023-12-28입니다. 실시간 서비스 또는 당시 사전 확정된 백테스트가 아닙니다.",
+  "US_research": "미국 사례는 기존 연구 결과를 보존한 참고 화면입니다. 한국 점수 계산에 미국 점수·계수·확률을 넣지 않았습니다.",
+  "labels": {
+    "LOW": "정상 범위",
+    "WATCH": "관찰 필요",
+    "REVIEW": "주의",
+    "REVIEW_HIGH": "위험 · 우선검토",
+    "ABSTAIN": "데이터 부족"
+  },
+  "risk_weights": {
+    "KR_anomaly": 0.5,
+    "activation": 0.15,
+    "donor_effective": 0.2,
+    "public_context": 0.15
+  },
+  "disabled_donor_weights_renormalized": false,
+  "recommended_UI_share": {
+    "KR": 0.5,
+    "US_research": 0.2,
+    "transfer_audit": 0.2,
+    "explanation_limitations": 0.1
+  },
+  "feature_display_names": {
+    "pre_ema_distance_10": "이전 10일 지수가중 평균 대비 가격",
+    "pre_ema_distance_20": "이전 20일 지수가중 평균 대비 가격",
+    "pre_ema_distance_60": "이전 60일 지수가중 평균 대비 가격",
+    "pre_sma_distance_10": "이전 10일 평균 대비 가격",
+    "pre_sma_distance_20": "이전 20일 평균 대비 가격",
+    "pre_sma_distance_60": "이전 60일 평균 대비 가격",
+    "pre_range_position_20": "이전 20일 가격 범위 내 위치",
+    "pre_range_position_60": "이전 60일 가격 범위 내 위치",
+    "abs_tail_exceedance_count_20": "최근 20일 큰 등락 발생 횟수",
+    "absret_percentile_20": "이전 20일 대비 등락 크기",
+    "absret_percentile_60": "이전 60일 대비 등락 크기",
+    "pre_logret_20": "이전 20일 누적 가격 변화 · 로그",
+    "pre_ret_20": "이전 20일 누적 가격 변화",
+    "pre_ret_40": "이전 40일 누적 가격 변화",
+    "pre_log_volume": "직전 거래일 거래량 · 로그",
+    "pre_volume_mean_5": "이전 5일 평균 거래량",
+    "pre_volume_mean_20": "이전 20일 평균 거래량",
+    "pre_volume_mean_60": "이전 60일 평균 거래량",
+    "pre_volume_median_20": "이전 20일 대표 거래량 · 중앙값",
+    "pre_volume_median_60": "이전 60일 대표 거래량 · 중앙값",
+    "pre_momentum_accel_5_20": "짧은 추세와 중기 추세의 차이",
+    "pre_trend_slope_20": "이전 20일 가격 추세",
+    "pre_zero_return_ratio_20": "이전 20일 가격 불변 비율",
+    "pre_zero_return_ratio_60": "이전 60일 가격 불변 비율"
+  }
+}

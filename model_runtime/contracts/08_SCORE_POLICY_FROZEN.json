@@ -1,0 +1,77 @@
+{
+  "version": "US_KR_SUBMISSION_HEURISTIC_1.0",
+  "UTC": "2026-09-06T22:40:24.438055+00:00",
+  "request_SHA": "0e4b5b45dbc6f28db1462abd021b3c24eaf937756abee586343f6777960e0be2",
+  "scoring_model_results_seen": false,
+  "weights": {
+    "KR_ANOMALY": 0.5,
+    "ACTIVATION": 0.15,
+    "DONOR_EFFECTIVE": 0.2,
+    "PUBLIC_CONTEXT": 0.15
+  },
+  "public_context_terms": {
+    "PUBLIC_EXPLANATION_STRONG": 20,
+    "PUBLIC_EXPLANATION_PARTIAL": 40,
+    "UNEXPLAINED_WITH_AVAILABLE_EVIDENCE": 70,
+    "EVIDENCE_INSUFFICIENT": 50,
+    "EVIDENCE_UNAVAILABLE": 50
+  },
+  "confidence_min": 45,
+  "bands": {
+    "LOW": [
+      0,
+      35
+    ],
+    "WATCH": [
+      35,
+      55
+    ],
+    "REVIEW": [
+      55,
+      70
+    ],
+    "REVIEW_HIGH": [
+      70,
+      100
+    ]
+  },
+  "upper_bound_inclusive_only_for_last_band": true,
+  "labels": {
+    "LOW": "정상 범위",
+    "WATCH": "관찰 필요",
+    "REVIEW": "주의",
+    "REVIEW_HIGH": "위험 · 우선검토",
+    "ABSTAIN": "데이터 부족"
+  },
+  "confidence_weights": {
+    "market_data": 0.25,
+    "history": 0.2,
+    "observed_features": 0.2,
+    "peer": 0.1,
+    "domain_confidence": 0.1,
+    "evidence": 0.1,
+    "timestamp": 0.05
+  },
+  "LIMITED_confidence_cap": 75,
+  "anomaly_fit": {
+    "n_estimators": 256,
+    "random_state": 20260907,
+    "contamination": "auto",
+    "n_jobs": 6,
+    "max_training_rows": 100000,
+    "fit_end_exclusive": "2020-01-01",
+    "reference_start": "2020-01-01",
+    "reference_end_exclusive": "2021-01-01",
+    "sample": "SHA256(namespace|security_code|date), smallest; no scores or labels"
+  },
+  "rank_formula": "Midrank empirical CDF; self reference previous<=252 observations, minimum60. No rank→self→peer chaining.",
+  "feature_selection": "First prefer exact located full191 feature direction/tier registry. If absent, only prior17 audit formula candidates with coverage>=.90 and nonconstant past-only reference; exclude raw price/history/calendar. Map explicit PORTABLE_RAW→A, PORTABLE_AFTER_RANK_NORMALIZATION→B with provenance. Never pretend this is missing191 tier assignment.",
+  "donor_missing_direction_policy": "direction=NULL, exclude feature from directional donor denominator. If no verified direction remains, raw support=NULL, domain confidence=0,effective contribution=0. Do not renormalize other fixed weights or invent signs. Completion status must disclose limitation.",
+  "source_past_model_rules": "Training<=2019, reference2020, served historical2023; metadata policies fixed2026, not a pre-registered2023 prospective evaluation",
+  "old_contract_changes": "New namespace only. Current user08 weights supersede earlier V1 recipe for this run, not edits to release_v1 or US R1/R1.1",
+  "US_probabilities_reused": false,
+  "US_coefficients_reused": false,
+  "threshold_tuning_for_label_distribution": false,
+  "ALERT_CANDIDATE_enabled": false,
+  "index_is_probability": false
+}

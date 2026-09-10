@@ -1,0 +1,133 @@
+{
+  "UTC": "2026-09-06T22:40:26.779233+00:00",
+  "eligible_securities": 2150,
+  "selection": "WithinKOSPI/KOSDAQ choose six smallestSHA256(exact6digitcode); only312session data completeness and frozen mechanics gates",
+  "market_score_read": 0,
+  "donor_score_read": 0,
+  "evidence_result_read": 0,
+  "label_read": 0,
+  "score_result_read": 0,
+  "cohort": [
+    {
+      "security_code": "006800",
+      "name": "미래에셋증권",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSPI",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "002ada6bdce8ffb7db11aa067b5d79fb858872a91becf97ac50fe7f5cca38a8f",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "033270",
+      "name": "유나이티드제약",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSPI",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "0047f33559e1f73188dbc44bc60cbe282714340aef2bc52815b62a2d8e7513c5",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "013360",
+      "name": "일성건설",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSPI",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "0049a889390656f34e5d69dd50d2aa55228cad5e20095eaccf507ff7993ce2c9",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "019175",
+      "name": "신풍제약우",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSPI",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "005c236c23a3d1344c542c914e8a6ae3cc1f750f86b6acf0fc26dd90fa1df240",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "004370",
+      "name": "농심",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSPI",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "0081fb2a6ab64c52b1a40c97bc4145a6363d322dcb8a1c621dc411c047c63808",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "002450",
+      "name": "삼익악기",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSPI",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "00887e170f8e78df9837e2a7ec313888c66091cb16a07036f67899555ccfe05e",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "082210",
+      "name": "옵트론텍",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSDAQ",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "00010da0b8655adefe2c434a98ae0074e7da4defb05ae7e18b5e75bbe4846f6a",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "019540",
+      "name": "일지테크",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSDAQ",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "00369b15c593c8989957c3658acf02bb56f1e674a0a9dbd8e8494071d29e1225",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "200230",
+      "name": "텔콘RF제약",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSDAQ",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "009c351eed59ada8dc1842f90d16e5c374adcb6479946c7aadc3624b780f4947",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "105550",
+      "name": "트루윈",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSDAQ",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "00b3a57b71348ce44829e87a3581517bb29d5ec5bec61d2dc95dabb714863fe7",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "056080",
+      "name": "유진로봇",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSDAQ",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "00caff4252e8393705fbf43353cdaed7847b47f64893e56c51cea98a260017bd",
+      "minimum_continuous_valid_sessions": 312
+    },
+    {
+      "security_code": "071850",
+      "name": "캐스텍코리아",
+      "name_authority": "EXACT_SOURCE_TEXT",
+      "exchange": "KOSDAQ",
+      "analysis_date": "2023-12-28",
+      "data_as_of": "2023-12-28",
+      "selection_SHA256": "00dc0221531c729d36768c1e8431f3d9c465b3b33211363e948e4faa5e5f9500",
+      "minimum_continuous_valid_sessions": 312
+    }
+  ],
+  "eligible_identity_hash": "1bb8f6589c22dc1091eb688b15b66428dcf4f1ba2327159af676a1c9604e4abc"
+}

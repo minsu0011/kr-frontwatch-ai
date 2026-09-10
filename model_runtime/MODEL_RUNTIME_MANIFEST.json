@@ -1,0 +1,127 @@
+{
+  "schema": "KR_FRONTWATCH_MODEL_RUNTIME_MANIFEST_V1",
+  "created_utc": "2026-09-09T20:13:42.355812+00:00",
+  "authority": "Frozen KR target-domain model and source; data binaries provisioned separately",
+  "model_sha256": "dc836d36354cf06ceb85a658685c3b050ffd686c8806b2afe87f5467d2c45700",
+  "adapter_sha256": "3db2229b90e3f960823ba390f1cfd6f60886a5588ad82cfbb53200327b56f2be",
+  "feature_capsule_sha256": "a9c179837afd8217e44dc05c75ff09f77a1b5a37589fb9d08765e53d03b2ff66",
+  "files": [
+    {
+      "relative_path": "06_KR_ADAPTER_FITTED.joblib",
+      "bytes": 8132815,
+      "sha256": "3db2229b90e3f960823ba390f1cfd6f60886a5588ad82cfbb53200327b56f2be"
+    },
+    {
+      "relative_path": "07_KR_ISOLATION_FOREST.joblib",
+      "bytes": 914841,
+      "sha256": "dc836d36354cf06ceb85a658685c3b050ffd686c8806b2afe87f5467d2c45700"
+    },
+    {
+      "relative_path": "cache/DEMO_FEATURE_CAPSULE.parquet",
+      "bytes": 131794,
+      "sha256": "a9c179837afd8217e44dc05c75ff09f77a1b5a37589fb9d08765e53d03b2ff66"
+    },
+    {
+      "relative_path": "contracts/03_US_TO_KR_DONOR_FIT_RECEIPT.json",
+      "bytes": 1520,
+      "sha256": "0cc4539ee4142b51cfe95c9e63fc925da46b41054b60ea3e3361c244fe06d430"
+    },
+    {
+      "relative_path": "contracts/05_PORTABLE_FEATURE_CORE.json",
+      "bytes": 21514,
+      "sha256": "bed1ed471d48c74c5d8998587f7329c2781b2a4cef7c0db51009926bc0415da7"
+    },
+    {
+      "relative_path": "contracts/06_KR_ADAPTER_MANIFEST.json",
+      "bytes": 2838,
+      "sha256": "f47a05e56d511d64a5f31c971744e6ea55eb2cd598faa2b64b1b626bab8cf5ef"
+    },
+    {
+      "relative_path": "contracts/08_SCORE_POLICY_FROZEN.json",
+      "bytes": 2983,
+      "sha256": "2918fb38df57169a471095a6a8df9e52a846a738c23fa34322bef294d7749173"
+    },
+    {
+      "relative_path": "contracts/09_KR_DEMO_PRELOCK.json",
+      "bytes": 4935,
+      "sha256": "1b752c027e057633906a77be62cb607234133b1a7c0112fa10665e06d349e523"
+    },
+    {
+      "relative_path": "contracts/13_MODEL_EXPLAINER_KO.json",
+      "bytes": 4680,
+      "sha256": "398f0c1e8813e1ad0f401a2a90435ad8bc9fbd0f6a70f5387a6db93dd9c6f26f"
+    },
+    {
+      "relative_path": "contracts/18_LIMITATIONS.json",
+      "bytes": 2050,
+      "sha256": "798c48e450a5eb81fb0af06ac556f686d24ce174e6eb70371e75791c5c2a5d0b"
+    },
+    {
+      "relative_path": "contracts/19_FINAL_STATUS.json",
+      "bytes": 2347,
+      "sha256": "b511115933e97072f0807eeba7835ae8c56736a041993dd85a364792eafbdc3f"
+    },
+    {
+      "relative_path": "laptop_reference_api.py",
+      "bytes": 3300,
+      "sha256": "f5ea416b4637fa6769be85bcac636a86492cc59f0ac4441bb2319a2f07db6c99"
+    },
+    {
+      "relative_path": "submission_final/__init__.py",
+      "bytes": 81,
+      "sha256": "ebf8e1d487eae97b48adf3307ec113b1ef86478be6a83c58f8c1ae9d6de13e4e"
+    },
+    {
+      "relative_path": "submission_final/activation.py",
+      "bytes": 447,
+      "sha256": "935acf91b0ffc05ba50b3e5a53c946c50932af3d4c76bad664b7d99cdd691823"
+    },
+    {
+      "relative_path": "submission_final/donor_support.py",
+      "bytes": 1192,
+      "sha256": "ffbfec21bc1e90f28992523c8ac1a5201f683ee67d1816314ee4f2d928d67b0b"
+    },
+    {
+      "relative_path": "submission_final/evidence.py",
+      "bytes": 600,
+      "sha256": "afcf3021e0cd0d5971593cd19642fbc4824b0518c08320813372b4c8fd555f8a"
+    },
+    {
+      "relative_path": "submission_final/kr_adapter.py",
+      "bytes": 2362,
+      "sha256": "93ae2580f554bed01e21c11f86cb4b2f3ee5fd7eb01fa6ae8fd31366a3efd29d"
+    },
+    {
+      "relative_path": "submission_final/kr_anomaly.py",
+      "bytes": 652,
+      "sha256": "6176660ce24f9813de5fff065a6e537f11fe0a4792014af97ca1b5118f4f84f6"
+    },
+    {
+      "relative_path": "submission_final/kr_features.py",
+      "bytes": 4252,
+      "sha256": "0977a6859c761179611bd2b516400f24e500d79800b764a94acdb2bbb5dd96dd"
+    },
+    {
+      "relative_path": "submission_final/original_features.py",
+      "bytes": 2828,
+      "sha256": "fbb87454984032379bac77f51b3eb84e1ff1aa4796dfa10a02cc51b07d6da852"
+    },
+    {
+      "relative_path": "submission_final/replay.py",
+      "bytes": 1688,
+      "sha256": "4273ab4f131fbe217a45c97e2186a2cdc17305677c4ecd84c5ada9134f41a969"
+    },
+    {
+      "relative_path": "submission_final/risk_index.py",
+      "bytes": 963,
+      "sha256": "2c0722b08c02204ed6207ee33d139d9d93c5edf58846e5e9d5b668ba1d62bff9"
+    }
+  ],
+  "rows_in_feature_capsule": 12,
+  "runtime_scope": "FROZEN_2023_12_28_DEMO_CAPSULE_REPLAY_ONLY",
+  "training_at_runtime": false,
+  "live_inference_enabled": false,
+  "protected_or_holdout_data_copied": false,
+  "full_market_data_copied": false,
+  "publication_metadata_updated_utc": "2026-09-10T23:48:53.223520+00:00"
+}

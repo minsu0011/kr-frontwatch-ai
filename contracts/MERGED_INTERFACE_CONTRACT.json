@@ -1,0 +1,95 @@
+{
+  "schema": "AI_CHALLENGE_MERGED_INTERFACE_CONTRACT_V1",
+  "created_utc": "2026-09-09T20:13:42.364741+00:00",
+  "desktop_baseline_head": "99e8cd74b32ca8970ba575b7116a6c6579667354",
+  "cache_first_api": {
+    "authority": "Desktop",
+    "routes": [
+      "/healthz",
+      "/api/kr/demo",
+      "/api/kr/model-info",
+      "/api/kr/securities",
+      "/api/kr/search",
+      "/api/kr/analyze/{code}",
+      "/api/us/donor-demo",
+      "/api/us/research-summary",
+      "/api/transfer/audit",
+      "/api/methodology"
+    ],
+    "latest_date": "2023-12-28",
+    "rows_latest": 2634,
+    "rows_all_code_date": 2670,
+    "manifest_sha256": "577a66a9651bf80e6144fcc613e1962b219dbcc05401de8ecb4e14cf7c5d2695"
+  },
+  "optional_model_replay": {
+    "authority": "Laptop model artifacts and code",
+    "routes": [
+      "/api/internal/model-replay/status",
+      "/api/internal/model-replay/{code}"
+    ],
+    "request": {
+      "code": "exact six-digit code from frozen demo capsule"
+    },
+    "response": {
+      "model_output": "frozen deterministic replay fields",
+      "frozen_api_parity": true
+    },
+    "allowed_date": "2023-12-28",
+    "allowed_rows": 12,
+    "arbitrary_input": false,
+    "model_sha256": "dc836d36354cf06ceb85a658685c3b050ffd686c8806b2afe87f5467d2c45700",
+    "adapter_sha256": "3db2229b90e3f960823ba390f1cfd6f60886a5588ad82cfbb53200327b56f2be"
+  },
+  "model_input": {
+    "feature_count": 24,
+    "features": [
+      "pre_ema_distance_10",
+      "pre_range_position_20",
+      "abs_tail_exceedance_count_20",
+      "pre_logret_20",
+      "pre_log_volume",
+      "pre_ema_distance_20",
+      "pre_range_position_60",
+      "absret_percentile_20",
+      "pre_ret_20",
+      "pre_volume_mean_20",
+      "pre_ema_distance_60",
+      "absret_percentile_60",
+      "pre_ret_40",
+      "pre_volume_mean_5",
+      "pre_momentum_accel_5_20",
+      "pre_volume_mean_60",
+      "pre_sma_distance_20",
+      "pre_volume_median_20",
+      "pre_sma_distance_60",
+      "pre_volume_median_60",
+      "pre_trend_slope_20",
+      "pre_zero_return_ratio_20",
+      "pre_sma_distance_10",
+      "pre_zero_return_ratio_60"
+    ],
+    "tier_counts": {
+      "A": 14,
+      "C": 6,
+      "D": 3,
+      "B": 1
+    },
+    "capsule_schema_source": "model_runtime/cache/DEMO_FEATURE_CAPSULE.parquet"
+  },
+  "model_output_to_api_mapping": {
+    "risk_index": "exact parity",
+    "confidence_index": "exact parity",
+    "kr_market_anomaly": "exact parity",
+    "activation_index": "exact parity",
+    "us_donor_support_effective": "exact parity",
+    "risk_level": "exact parity"
+  },
+  "invariants": {
+    "US_coefficient_reused": false,
+    "US_probability_reused": false,
+    "training_at_runtime": false,
+    "live_inference_enabled": false,
+    "scientific_validation_pass": false,
+    "production_qualified": false
+  }
+}

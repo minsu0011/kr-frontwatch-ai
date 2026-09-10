@@ -1,0 +1,23 @@
+{
+  "runtime_mode": "HISTORICAL_REPLAY",
+  "latest_market_date": "2023-12-28",
+  "production_qualified": false,
+  "scientific_validation_pass": false,
+  "new_KR_supervised_fits": 0,
+  "items": [
+    "2021 market data absent; history resets across missing year rather than splicing.",
+    "Unadjusted KR source; official split/rights/relisting/suspension and canonical issuer master unavailable. LIMITED, never VERIFIED.",
+    "2859 is security-code count, not issuer count; exchange memberships can overlap over time.",
+    "KR market rows are unlabeled, not clean negatives. No front-running accuracy, probability or legal conclusion.",
+    "No PIT-aligned DART/KIND/news evidence for2023; unavailable context stays neutral50.",
+    "Daily bars do not prove a pre-public anomaly. No ALERT_CANDIDATE is generated.",
+    "Model trained<=2019, reference2020; formula/prior/policy research occurred2026 and used2018-2023 diagnostics. Thus historical replay is not an untouched forward validation.",
+    "Original trigger_severity sign is a movement-intensity prior, not a misconduct class. Some effects small; same-sign rule is not statistical significance certification.",
+    "TierD peer adapter approximates original broad environments; extra conditional weight penalty applies. No conditional transfer certification.",
+    "24 features include correlated trend/liquidity views. No performance-based feature search or recalibration was done.",
+    "Anomaly/self/market/peer indices have different reference definitions; feature extremeness is not a model-score percentile.",
+    "Model finalization had an earlier14-feature fallback fit before restoration of the original feature contract; superseded artifacts are preserved, not used to select final outcomes.",
+    "API serves cached exact dates, not arbitrary/live market inference. Unsupported dates/codes return404 without filling.",
+    "Desktop integration package is generated and locally tested; actual Desktop app deployment is not performed by Laptop worker."
+  ]
+}

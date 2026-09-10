@@ -1,0 +1,80 @@
+{
+  "status": "US_KR_BALANCED_SUBMISSION_MVP_READY",
+  "qualification": "HISTORICAL_RESEARCH_ONLY_WITH_KR_DOMAIN_LIMITATIONS",
+  "UTC": "2026-09-06T23:10:53.782756+00:00",
+  "start_utc": "2026-09-06T22:25:39+00:00",
+  "deadline_utc": "2026-09-06T23:25:39+00:00",
+  "KR_security_codes": 2859,
+  "KR_issuer_count": "UNKNOWN_NO_CANONICAL_ISSUER_MASTER",
+  "KR_market_rows": 2900626,
+  "KR_feature_ready_rows": 1456005,
+  "KR_fit_rows": 100000,
+  "KR_reference_rows": 100000,
+  "portable_feature_count": 24,
+  "tier_counts_used": {
+    "A": 14,
+    "C": 6,
+    "D": 3,
+    "B": 1
+  },
+  "KR_IsolationForest_fitted": true,
+  "KR_adapter_fitted": true,
+  "US_direction_mapping_fitted": true,
+  "donor_model_modified": false,
+  "KR_demo_rows": 12,
+  "KR_demo_exchanges": {
+    "KOSPI": 6,
+    "KOSDAQ": 6
+  },
+  "KR_demo_routes": {
+    "LOW": 5,
+    "WATCH": 4,
+    "REVIEW": 3
+  },
+  "KR_latest_all_routes": {
+    "WATCH": 839,
+    "REVIEW": 312,
+    "LOW": 1008,
+    "ABSTAIN": 415,
+    "REVIEW_HIGH": 60
+  },
+  "US_demo_rows": 31,
+  "US_demo_routes": {
+    "WATCH": 3,
+    "REVIEW": 28
+  },
+  "US_full_research_rows": 2098,
+  "US_full_routes": {
+    "NORMAL": 0,
+    "WATCH": 527,
+    "REVIEW": 1571,
+    "ALERT_CANDIDATE": 0,
+    "ABSTAIN": 0
+  },
+  "donor_max_final_weight": 0.2,
+  "max_actual_demo_donor_points": 11.23643707382392,
+  "API_ready_locally_tested": true,
+  "browser_desktop_mobile_tested": true,
+  "Desktop_app_modified": false,
+  "Desktop_deployment_performed": false,
+  "runtime_mode": "HISTORICAL_REPLAY",
+  "data_as_of": "2023-12-28",
+  "scientific_validation_pass": false,
+  "production_qualified": false,
+  "new_KR_supervised_fits": 0,
+  "new_KR_unsupervised_fits_total": 2,
+  "original_authority_current_fit_count": 1,
+  "fallback_superseded_preserved": true,
+  "future_or_label_outcome_tuning": false,
+  "checks_passed": 262,
+  "checks_failed": 0,
+  "source_parent_hash_mismatches": 0,
+  "protected_opens": 0,
+  "raw_full_market_data_in_package": false,
+  "important_limitations": [
+    "Unknown CA/relisting/suspension authority => LIMITED",
+    "Missing2021 and PIT public evidence",
+    "Prior researched2026 using2018-2023; not prospective2023 validation",
+    "Scores not probabilities; no legal determination; no ALERT without timing"
+  ]
+}
