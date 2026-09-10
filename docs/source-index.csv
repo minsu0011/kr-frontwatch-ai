@@ -1,4 +1,4 @@
-﻿path,language,bytes
+path,language,bytes
 start.py,py,636
 app/frozen_replay.py,py,7082
 app/main.py,py,3374
@@ -17,3 +17,5 @@ model_runtime/submission_final/__init__.py,py,81
 static/app.js,js,33632
 tests/test_app.py,py,7755
 tests/test_model_integration.py,py,1093
+model_runtime/laptop_reference_api.py,py,3300
+tests/test_model_source.py,py,2126
