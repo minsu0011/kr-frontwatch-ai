@@ -74,4 +74,8 @@ python start.py
 
 [app/main.py](app/main.py), [app/frozen_replay.py](app/frozen_replay.py), [static](static)이 서버에서 화면까지의 읽기 순서입니다.
 
-[전체 개발 과정](docs/wiki/Development-Journey.md) · [연구 단계와 현재 모델](docs/wiki/Model-Evolution.md) · [병목과 해결](docs/wiki/Bottlenecks-and-Solutions.md) · [검증과 한계](docs/wiki/Validation-and-Results.md)
+[전체 개발 과정](https://github.com/minsu0011/kr-frontwatch-ai/wiki/Development-Journey) · [연구 단계와 현재 모델](https://github.com/minsu0011/kr-frontwatch-ai/wiki/Model-Evolution) · [병목과 해결](https://github.com/minsu0011/kr-frontwatch-ai/wiki/Bottlenecks-and-Solutions) · [검증과 한계](https://github.com/minsu0011/kr-frontwatch-ai/wiki/Validation-and-Results)
+
+[Wiki 전체 보기](https://github.com/minsu0011/kr-frontwatch-ai/wiki) · [저장소 내 문서 사본](docs/wiki/Home.md)
+
+[모델에서 화면까지: 코드 연결도](https://github.com/minsu0011/kr-frontwatch-ai/wiki/Architecture)

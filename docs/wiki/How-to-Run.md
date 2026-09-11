@@ -14,3 +14,5 @@ python start.py
 읽는 순서는 [start.py](../../start.py), [main.py](../../app/main.py), [frozen_replay.py](../../app/frozen_replay.py), [static](../../static)입니다. API의 표시 지수는 투자 판단이나 사건 확률로 사용하지 않습니다.
 
 `main`에는 모델·서비스·문서가 함께 있습니다. [모델 자료 준비](../../model_runtime/README.md) · [소스와 배포](../branches.md)
+
+모델 코드는 [전체 연결도](Architecture.md)의 파일별 안내를 따라 읽을 수 있습니다. `original_features.py` → `06_KR_ADAPTER_MANIFEST.json`의 입력 순서 → `kr_adapter.py` → `kr_anomaly.py` → `risk_index.py`가 계산 경로이고, `replay.py`와 `app/model_bridge.py`가 지정 사례를 API에 연결합니다. 미국 연구 모델과 한국 runtime은 별개입니다.
